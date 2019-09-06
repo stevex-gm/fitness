@@ -1,7 +1,7 @@
 APP.start = async ()=>{
 	console.log('start');
 	if(APP.hash){
-		$lib.replaceObj(,APP.root);
+		$lib.replaceObj('',APP.root);
 		return APP.createHeader();
 	}
 
